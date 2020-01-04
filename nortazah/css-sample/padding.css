@@ -1,0 +1,55 @@
+div.e {
+	border: 2px dotted green;
+	background-color: burlywood;
+	padding: 50px 30px 50px 80px;
+	text-align: center;
+	
+}div.e1 {
+	border: 1px dotted green;
+	background-color: burlywood;
+	padding: 50px  50px 80px;
+	text-align: center;
+}
+
+/*
+
+    padding: 25px 50px;
+        top and bottom paddings are 25px
+        right and left paddings are 50px
+*/
+
+
+    /*padding: 25px;
+        all four paddings are 25px
+*/
+
+/*Padding and element width - with box-sizing*/
+
+div.e2 {
+	margin-left: 600px;
+	width: 300px;
+	background-color: yellow;
+}
+
+div.e3 {
+	margin-left: 600px;
+	width: 300px;
+	padding: 25px;
+	box-sizing: border-box;
+	background-color: lightblue;
+}
+
+p.padding {
+  padding-left: 2cm;
+}
+p.padding2 {
+  padding-left: 50%;
+}
+
+p.padding3 {
+  padding-right: 2cm;
+}
+
+p.padding4 {
+  padding-right: 50%;
+}

@@ -1,0 +1,63 @@
+p.dashed {
+	border-style: dashed;
+	border-color: aquamarine
+}
+
+p.dotted {
+	border-style: dotted;
+}
+
+p.double {
+	border-style: double;
+	border-color: blueviolet
+}
+
+p.groove {
+	border-style: groove;
+	border-color: blueviolet
+}
+
+p.solid {
+	border-style: solid;
+	border-color: gold;
+}
+
+p.ridge {
+	border-style: ridge;
+	border-color: brown;
+	border-width: thick;
+}
+
+p.inset {
+	border-style: inset;
+	border-color: gray;
+	border-width: thick;
+}
+
+p.outset {
+	border-style: outset;
+	border-color: goldenrod;
+	border-width: thick;
+}
+
+p.none {
+	border-style: none;
+	border-color: goldenrod;
+	border-width: thick;
+}
+
+p.hidden {
+	border-style: hidden;
+	border-color: goldenrod;
+	border-width: thick;
+}
+
+p.mix {border-style: groove hidden outset double;
+border-color: fuchsia;
+border-width: 2px 10px 4px 20px;
+}
+
+p.outseta {border-style: outset;
+border-color: greenyellow;
+border-width: 2px 10px 4px 20px;
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: powderblue;
+    }
+h1{
+    color: crimson;
+    font-family: vazir;
+    font-size: 130%;
+}
+/*p {
+    color: red;
+    font-family: vazir;
+    font-size: 150%;
+    border: 1px solid yellow;
+    padding: 30px;
+    margin: 15px
+}*/
+#main {
+    color: crimson;
+}
+
+ 
+.v {
+    color: brown;
+    background-color: pink;
+    
+    
+}
+
+/*
+
+css custom link num 1!
+a:link {
+    color: green;
+    background-color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: deeppink;
+    background-color: hotpink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: hotpink;
+    text-decoration: underline;
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+*/
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
+border for table
+table, th, td {
+	border: 2px solid blue;
+	
+	
+	text-align: right;
+	
+}
+
+#myH {
+	
+	background-color: fuchsia;
+	color: papayawhip;
+	padding: 40px;
+	text-align: center;
+	font-size: 300%
+}
+
+
+
+

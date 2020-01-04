@@ -1,0 +1,78 @@
+p {
+	font-family: "IranNastaliq", "vazir";
+
+}
+
+p.ex {
+	font-family: "IranNastaliq", "vazir";
+	font-style: italic;
+	color: cadetblue;
+	font-size: 30px;
+}
+
+p.ex1 {
+	font-family: "IranNastaliq", "vazir";
+	font-style: oblique;
+	color: chocolate;
+	font-size: 25px;
+}
+
+h1 {
+	text-indent: 17px;
+	font-size: 40px;
+	font-family: "Dima Shekasteh Free";
+}
+
+/*Set Font Size With Em
+
+To allow users to resize the text (in the browser menu), many developers use em instead of pixels.
+
+The em size unit is recommended by the W3C.
+
+1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
+
+The size can be calculated from pixels to em using this formula: pixels/16=em*/
+
+h1.a {
+	font-size: 2.5em;
+	/* 40px/16=2.5em */
+	text-align: center;
+	color: chartreuse;
+}
+
+
+/*------------------------------------------*/
+
+/*The solution that works in all browsers, is to set a default font-size in percent for the <body> element:
+Our code now works great! It shows the same text size in all browsers, and allows all browsers to zoom or resize the text!
+*/
+
+p.ex2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p.ex3 {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+p.ex4 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+
+
+p.ex11 {
+	font-size: 30px;
+	font-weight: 900px;
+}
+/*Responsive Font Size*/
+h1.a3 {
+text-indent: 30vw;
+font-size: 10vw;
+
+}
+
+p.ex6 {font-variant: small-caps;}

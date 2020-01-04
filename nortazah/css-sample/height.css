@@ -1,0 +1,39 @@
+div {height: 200px;
+width: 50%;
+background-color: powderblue;
+padding: 25px;
+	margin: 100px
+}
+
+div.a1 {
+	max-height: 500px;
+	max-height: 100px;
+	background-color: powderblue;
+	
+}
+
+div.box {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+/*div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+320px (width)
++ 20px (left + right padding)
++ 10px (left + right border)
++ 0px (left + right margin)
+= 350px 
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element should be calculated like this:
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+*/

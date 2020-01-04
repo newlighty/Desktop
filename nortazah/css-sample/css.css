@@ -1,0 +1,101 @@
+/*body {
+	background-color: lightblue;
+}*/
+
+/*body {
+	background-image: url( img/logo/applogo.png);
+}*/
+
+/*body {
+	background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+	background-repeat: no-repeat;
+	
+}*/
+/*
+body{
+	background-image: url(img/gif/1.gif);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-bottom: 400px;
+}*/
+
+/*body {
+  background-image: url("img/gif/1.gif");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+	background-attachment: fixed;
+}*/
+
+/*short code of above code*/
+
+body {
+	background: #ff99ff url("img/gif/1.gif") no-repeat right top;
+}
+
+/*
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+*/
+
+/*
+#nor {
+	text-align: center;
+	color: rosybrown;
+}
+
+
+p.nor1 {
+	text-align: left;
+	color: blue;
+}
+
+p.center {
+	text-align: center;
+	color: palevioletred;
+}
+
+p.large {
+	font-size: 400%;
+}
+*/
+/*این کد همه چیز رو به اون چیزی که گفته شده تغییر میده*/
+/** {
+	text-align: center;
+	color: brown;
+}*/
+/*
+
+ h1, h2, p {
+	text-align: center;
+	color: chocolate;
+}
+*/
+
+/*
+h1 {
+	background-color: dodgerblue;
+	
+}
+
+p {
+	background-color: tomato;
+}
+*/
+
+/*h1 {
+	color: tomato;
+}*/
+/*p {
+	color: dodgerblue;
+	border: solid red;
+		
+		
+}*/

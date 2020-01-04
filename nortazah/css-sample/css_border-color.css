@@ -1,0 +1,77 @@
+p.one {
+	border-style: solid;
+	border-left-color: cadetblue;
+	border-top-color: dodgerblue;
+	border-bottom-color: chartreuse;
+}
+
+p.two {
+	border-style: dashed;
+	border-color: red green blue yellow;
+}
+
+p.tree {
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-color: chocolate;
+	border-right-color: chocolate;
+	border-width: thick;
+
+}
+
+/*کد خلاصه کد بالا*/
+p.four {
+	border-style: dotted solid;
+	border-color: blueviolet red;
+	border-width: thick;
+
+}
+
+p.five {
+	border-style: dotted solid double dashed;
+	border-color: rebeccapurple red rosybrown brown;
+
+}
+
+p.six {
+	border-style: dotted solid double;
+	border-color: aqua red green;
+}
+
+p.seven {
+	border-style: dotted solid;
+	border-color: green rosybrown;
+
+}
+
+p.eight {
+	border: 5px solid red;
+}
+
+p.nine {
+	border-left: 6px solid green;
+	background-color: lightgray;
+}
+
+p.ten {
+	border-bottom: 6px solid green;
+	background-color: lightgray;
+}
+
+p.eleven {
+	border: 2px solid green;
+	border-radius: 5px;
+}
+
+p.tw {
+	border-style: solid dotted;
+	border-color: red black;
+}
+
+p.ssa {
+	border-style: solid dotted;
+	border-color: black red;
+	border-radius: 10px;
+}

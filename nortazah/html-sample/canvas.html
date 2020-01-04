@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<canvas id="mcan" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mcan");
+		var ctx = c.getContext("2d");
+		ctx.moveTo(0, 0);
+		ctx.lineTo(200, 100);
+		ctx.stroke();
+	</script>
+
+
+	<canvas id="mcana" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+
+
+	<script>
+		var c = document.getElementById("mcana");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(90, 50, 45, 1.5, 2 * Math.PI);
+		ctx.stroke();
+	</script>
+
+
+	<canvas id="mcanaa" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mcanaa");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+		ctx.stroke();
+	</script>
+
+
+
+	<canvas id="mcanaaa" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mcanaaa");
+		var ctx = c.getContext("2d");
+		ctx.font = "30px Arial";
+		ctx.fillText("Nortazah", 30, 60);
+	</script>
+
+	<canvas id="mcanaaaa" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mcanaaaa");
+		var ctx = c.getContext("2d");
+		ctx.font = "30px Arial";
+		ctx.strokeText("Nortazah", 30, 60);
+	</script>
+
+
+	<canvas id="mcanaaaab" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mcanaaaab");
+
+		var ctx = c.getContext("2d");
+		// Create gradient	
+		var grd = ctx.createLinearGradient(0, 0, 200, 0);
+		grd.addColorStop(0, "red");
+		grd.addColorStop(1, "white");
+
+		// Fill with gradient
+		ctx.fillStyle = grd;
+		ctx.fillRect(10, 10, 150, 80);
+	</script>
+
+
+	<canvas id="mycn" width="200" height="100" style="border:1px solid #000000"></canvas>
+
+	<script>
+		var c = document.getElementById("mycn");
+		var ctx = c.getContext("2d");
+
+		// Create gradient
+		var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+
+		grd.addColorStop(0, "green");
+		grd.addColorStop(1, "white");
+
+		// Fill with gradient
+		ctx.fillStyle = grd;
+		ctx.fillRect(10, 10, 150, 80);
+	</script>
+
+	<!------------------------------->
+
+	<p>image org </p>
+	<img id="asta" src="img/gif/back.jpg" alt="asta" width="220" height="277">
+
+	<p>Canvas to fill: تصویر زیر با برنامه نویسی جاوا اسکریپت درست شده</p>
+
+	<canvas id="mycna" width="626" height="417" style="border:1px solid #000000"></canvas>
+     
+	<p><button onclick="mycna()">
+			Try it
+		</button></p>
+
+	<script>
+		function mycna() {
+
+			var c = document.getElementById("mycna");
+			var ctx = c.getContext("2d");
+			var img = document.getElementById("asta");
+			ctx.drawImage(img, 10, 10);
+		}
+	</script>
+
+
+
+</body>
+
+</html>

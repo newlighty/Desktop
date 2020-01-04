@@ -1,0 +1,5 @@
+ul {list-style-image: url(img/favicon/favicon-16x16.png)}
+
+ul.a {list-style-image: url(img/logo/narang.png) }
+
+ul.a { position:absolute; font-size: 20px; font-kerning: auto; font-feature-settings: normal; }

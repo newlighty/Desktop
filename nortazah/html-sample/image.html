@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+	table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+	table#t01 tr:nth-child(odd) {
+		background-color: blueviolet;
+	}
+	
+	
+	table#t01 th {
+  background-color: black;
+  color: white;
+	}
+	
+	
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table id="t01">
+  <caption>سریال خارجی</caption>
+  <tr>
+    <th>بروز شده ها</th>
+   
+   <td>قسمتهای جدید</td>
+   
+  </tr>
+  <tr>
+    <td rowspan="1">
+    	فصل 6 قسمت 1
+    	
+    </td>
+    <td>arrow</td>
+     </tr>
+    
+   
+   <tr>
+    <td rowspan="1">فصل 5 قسمت 5</td>
+    <td>flash</td>
+     </tr>
+   
+   <tr>
+    <td rowspan="1">فصل 4 قسمت 7</td>
+    <td>supergirl</td>
+     </tr>
+     
+  
+   
+   <tr>
+    <td rowspan="1">فصل 9 قسمت 3</td>
+    <td>outpost</td>
+     </tr>
+   
+   
+   <tr>
+    <td rowspan="1">فصل 12قسمت 1</td>
+    <td>witch</td>
+     </tr>
+    
+</table>
+
+
+
+</body>
+</html>

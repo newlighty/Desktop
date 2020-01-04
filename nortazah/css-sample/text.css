@@ -1,0 +1,100 @@
+body {
+	color: firebrick;
+}
+
+h1 {
+	color: green;
+}
+
+div {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1.a {
+	text-decoration: overline;
+}
+
+h1.a1 {
+	text-decoration: line-through;
+}
+
+h1.a2 {
+	text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+p.ex {
+	text-transform: capitalize;
+}
+
+p.ex1 {
+	text-transform: lowercase;
+}
+
+p.ex2 {
+	text-transform: uppercase;
+}
+
+p.ex3 {
+	text-transform: full-width;
+}
+
+/*-------------------------------*/
+/*نحوه تغییر فاصله بین خطوط*/
+p.ex4 {
+	text-indent: 50px;
+}
+
+/*------------------------*/
+h1.a3 {
+	letter-spacing: 5px
+}
+
+h1.a4 {
+	letter-spacing: -3px
+}
+
+/*-------------------------------*/
+
+p.ex5 {
+	line-height: 0.8;
+}
+
+p.ex6 {
+	line-height: 3.8;
+}
+
+
+p.ex7 {
+	direction: rtl;
+}
+
+p.ex8 {
+	direction: ltr;
+}
+
+h1.a5 {
+	word-spacing: 10px;
+}
+
+h1.a6 {
+	word-spacing: -5px;
+}
+
+h1.a7 {
+	text-shadow: 3px 2px red;
+}
+
+h1.a8 {
+	text-shadow: 3px 2px green;
+}
+
+p.ex9 {
+    font-weight: 400;
+    line-height: 24px;
+}

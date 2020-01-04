@@ -1,0 +1,47 @@
+/*p.a{margin: 100px; 
+	text-align: center;} 
+
+p.ab{margin: 200px; 
+	text-align: center;} */
+
+div.abc {
+	margin: 25px 50px 75px 100px;
+	border: 2px solid red;
+	background-color: lightblue;
+	text-align: center;
+}
+
+div.abcd {
+	margin: 25px 50px;
+	background-color: cadetblue;
+	border: 2px dotted green;
+}
+
+div.abaa {
+	margin: 25px 50px;
+	background-color: darkgreen;
+	border: 2px dotted green;
+}
+
+div.x {
+	width: 300px;
+	margin: auto;
+	border: 1px solid blue;
+}
+
+div {
+	border: 1px solid red;
+	margin-left: 100px;
+	
+}
+
+p.ex1 {
+	table-layout: inherit;
+	margin-left: 100px;
+}
+
+h1 {
+	margin: 0 0 50px 0;
+}
+
+h2 {margin: 20px 0 0 0;}

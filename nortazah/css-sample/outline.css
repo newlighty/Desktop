@@ -1,0 +1,68 @@
+p {
+	outline-color: blueviolet;
+}
+
+p.dotted {
+	margin: 10px;
+	border: 3px solid red;
+	padding 10px 10px 10px 10px;
+	text-align: center;
+	outline-style: dotted;
+}
+
+div {
+	margin: 10px;
+	border: 3px solid red;
+	padding 10px 10px 10px 10px;
+	text-align: center;
+	outline-style: dotted;
+}
+
+p.ex1 {
+	border: 2px solid yellow;
+	outline-style: solid;
+	outline-color: invert;
+}
+
+p.ex2 {
+	border: 2px solid yellow;
+	outline-style: double;
+	outline-color: black;
+	outline-width: thin;
+}
+
+p.ex3 {
+	border: 2px solid yellow;
+	outline-style: double;
+	outline-color: black;
+	outline-width: medium;
+}
+
+p.ex4 {
+	border: 2px solid yellow;
+	outline-style: double;
+	outline-color: black;
+	outline-width: thick;
+}
+
+p.ex5 {
+	border: 2px solid yellow;
+	outline-style: double;
+	outline-color: black;
+	outline-width: 10px;
+}
+
+p.ex6 {
+	outline: dashed green thick;
+}
+
+/*one of the best example*/
+p.ex7 {
+	margin: 30px;
+	border: 1px solid black;
+	outline: 1px solid red;
+	outline-offset: 15px;
+	padding: 10px;
+	text-align: center;
+    background: yellow;
+}

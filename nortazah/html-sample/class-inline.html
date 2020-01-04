@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+		
+			.city {
+				background-color: tomato;
+				color: white;
+				padding: 10px;
+				
+			}
+			
+			
+			.main {
+				
+				
+				text-align: center;
+				
+				
+			/*span.note {
+				
+				font-size: 120%;
+				color: red;
+				
+			}
+		*/
+		</style>
+		
+		</head>
+		<body>
+			
+			<!--<h1>
+				
+				shiraz <span class="note">
+					 Importent
+					
+				</span>
+				city
+			</h1>
+			
+			
+			<p>
+				
+				this is some <span class="note">Impo</span>
+				fuc
+			</p>-->
+		
+		<button onclick="myFunction()"
+		
+		>Hide Element
+		
+		</button> 
+	
+	    <h1 id="mahsa">salam khoby</h1>
+	    <button onclick="displayResult()">
+	     حرف دلم
+	    </button>
+	
+	
+	<h2  class="city main"> Shiraz</h2>
+	<p> is  a city </p>
+	
+	<h2  class="city"> rast</h2>
+	<p> is  a city </p>
+	
+	<h2  class="city"> tabriz</h2>
+	<p> is  a city </p>
+	
+	<h1 id="myH">shiraz</h1>
+	
+	<script>
+			function myFunction() {
+			var x = document.getElementsByClassName("city");
+				for (var i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+			}
+			
+			</script>
+	
+	
+	
+	<script>
+			function displayResult(){
+				document.getElementById("mahsa").innerHTML = "عزیزم دوست دارم !";
+							}
+			
+			</script>
+	</body>
+</html>
